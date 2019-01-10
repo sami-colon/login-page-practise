@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>status check</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="css_folder/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./citizen-content.html"><span class="badge badge-pill badge-danger">File a new Case</span></a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="badge badge-pill badge-success">Check Current Status</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h1>Check Your Proposal status!</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+    	<div class="row row-content justify-content-center">
+    		<div class="col-12 col-md-8">
+    			<form>
+    				<div class="form-group">
+                        <label for="case-id"><font color="#9966dd">Enter Case No!</font></label>
+                        <textarea class="form-control" id="case-id" rows="1"></textarea>
+                    </div>
+    				<button type="submit" class="btn btn-success"><span class="badge badge-pill badge-warning">Submit</span></button>
+    			</form>
+    		</div>
+    	</div>    	
+    </div>
+    <div class="container">
+    	<div class="row row-content justify-content-center">
+    		<div class="col-12 col-md-3"> 
+    			<div class="card bg-success text-white">
+    				<div class="card-body">
+    					<h1 class="card-title"><font color="floral-white">Stage 1</font></h1>
+    					<p class="card-text">Suggestions uploaded!</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-12 col-md-3"> 
+    			<div class="card bg-danger text-white">
+    				<div class="card-body">
+    					<h1 class="card-title"><font color="floral-white">Stage 2</font></h1>
+    					<p class="card-text">Suggestions into consideration!</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-12 col-md-3"> 
+    			<div class="card bg-danger text-white">
+    				<div class="card-body">
+    					<h1 class="card-title"><font color="floral-white">Stage 3</font></h1>
+    					<p class="card-text">Suggestions are aproved and work has been started!</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-12 col-md-3"> 
+    			<div class="card bg-danger text-white">
+    				<div class="card-body">
+    					<h1 class="card-title"><font color="floral-white">Stage 4</font></h1>
+    					<p class="card-text">Work completed!</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

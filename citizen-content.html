@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>citizen content</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" type="text/css" href="css_folder/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="badge badge-pill badge-success">File a new Case</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./status-check.html"><span class="badge badge-pill badge-danger">Check Current Status</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h1>Submit Your Proposal!</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-content justify-content-center">
+            <div class="col-12 col-md-8">
+                <div class="card bg-warning text-white">
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <font color="#9966ff">Name Of User</font>
+                                </div>    
+                                <div class="col-12 col-md-8">
+                                    <font color="#9966ff">Id/Phone Number</font>
+                                </div>                            
+                            </div>
+                            <hr>
+                            <form>
+                                <div class="form-group">
+                                    <label for="mp-name">Choose MP to assign task for!</label>
+                                    <select id="mp-name" class="form-control">
+                                        <option>LS1</option>
+                                        <option>LS2</option>
+                                        <option>LS3</option>
+                                        <option>LS4</option>
+                                        <option>LS5</option>
+                                        <option>LS6</option>
+                                        <option>LS1</option>
+                                        <option>LS2</option>
+                                        <option>LS3</option>
+                                        <option>LS4</option>
+                                        <option>LS5</option>
+                                        <option>LS6</option>
+                                    </select>
+                                </div>     
+                                <div class="form-group">
+                                    <label for="proposal">Enter Your Proposal in Breif!</label>
+                                    <textarea class="form-control" id="proposal" rows="4"></textarea>
+                                </div>       
+                                <div class="form-group">
+                                    <label for="image">Enter any supportive image!</label>
+                                    <input type="file" name="" class="from-control-file" id="image">
+                                </div>                  
+                                <button type="submit" class="btn btn-success"><span class="badge badge-pill badge-warning">Submit</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>                
+            </div>            
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
